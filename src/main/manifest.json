@@ -1,0 +1,34 @@
+{
+    "name": "test",
+    "description": "test",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker":"js/background.js"
+    },
+    "permissions": [
+        "cookies",
+        "storage",
+        "tabs",
+        "webRequest",
+        "webNavigation"
+    ],
+    "host_permissions":[
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_title": "test",
+        "default_popup": "html/popup.html",
+        "16": "assets/img/icon/icon16.png",
+        "32": "assets/img/icon/icon32.png",
+        "48": "assets/img/icon/icon48.png",
+        "128": "assets/img/icon/icon128.png"
+    },
+    "icons": {
+        "16": "assets/img/icon/icon16.png",
+        "32": "assets/img/icon/icon32.png",
+        "48": "assets/img/icon/icon48.png",
+        "128": "assets/img/icon/icon128.png"
+    }
+}
